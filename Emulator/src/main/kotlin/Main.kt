@@ -1,5 +1,10 @@
 package org.example
 
 fun main() {
-    println("Hello World!")
+    //get rom, read it then create the computer
+    // start the cpu proccesses
+    // end 
+
+
+
 }

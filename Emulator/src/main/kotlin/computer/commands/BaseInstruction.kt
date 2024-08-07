@@ -5,7 +5,7 @@ import org.example.computer.Computer
 abstract class BaseInstruction(): Instruction {
 
 
-    override fun performInstruction(computer:Computer, instruction:UByte) {
+    override fun performInstruction(computer:Computer, instruction1:UByte,instruction2: UByte) {
         splitByte()
         performOperation()
         incrementPcount(computer)

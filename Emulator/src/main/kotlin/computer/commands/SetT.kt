@@ -1,4 +1,11 @@
 package org.example.computer.commands
 
-class SetT {
+import org.example.computer.Computer
+
+class SetT:BaseInstruction() {
+
+
+    override fun performOperation(parts: List<Int>, computer: Computer) {
+        TODO("Not yet implemented")
+    }
 }

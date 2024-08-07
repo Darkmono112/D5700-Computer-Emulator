@@ -1,4 +1,11 @@
 package org.example.computer.commands
 
-class SkipNot {
+import org.example.computer.Computer
+
+class SkipNot:BaseInstruction() {
+
+
+    override fun performOperation(parts: List<Int>, computer: Computer) {
+        TODO("Not yet implemented")
+    }
 }

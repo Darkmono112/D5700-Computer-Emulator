@@ -1,4 +1,10 @@
 package org.example.computer.commands
 
-class Write {
+import org.example.computer.Computer
+
+class Write:BaseInstruction() {
+    override fun performOperation(parts: List<Int>, computer: Computer) {
+        TODO("Not yet implemented")
+    }
+
 }

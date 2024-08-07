@@ -4,10 +4,10 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class TestAdd {
-    val computer:Computer = Computer(listOf())
+
     @Test
     fun testAdd(){
-
+       // val computer:Computer = Computer(listOf((0x).toUByte))
 
     }
 }

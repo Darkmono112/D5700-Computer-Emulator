@@ -5,14 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="912271ec-ef98-4a79-81fa-b1f4099f935b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Computer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Computer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Register.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Add.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/BaseInstruction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/BaseInstruction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ConvertB10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ConvertB10.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Draw.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Draw.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Instruction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Instruction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Invoker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Invoker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Jump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Jump.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Read.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Read.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadKeyboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadKeyboard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadTimer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipEqual.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipEqual.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipNot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipNot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Store.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Store.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Sub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Sub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SwitchMemory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SwitchMemory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Write.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Write.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestAdd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestAdd.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestStore.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

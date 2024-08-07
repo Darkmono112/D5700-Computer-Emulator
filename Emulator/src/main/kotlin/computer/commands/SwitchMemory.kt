@@ -1,4 +1,10 @@
 package org.example.computer.commands
 
-class SwitchMemory {
+import org.example.computer.Computer
+
+class SwitchMemory:BaseInstruction() {
+
+    override fun performOperation(parts: List<Int>, computer: Computer) {
+        TODO("Not yet implemented")
+    }
 }

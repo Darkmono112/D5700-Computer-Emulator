@@ -1,4 +1,23 @@
 package org.example.computer.commands
 
-class BaseInstruction {
+import org.example.computer.Computer
+
+abstract class BaseInstruction(): Instruction {
+
+
+    override fun performInstruction(computer:Computer, instruction:UByte) {
+        splitByte()
+        performOperation()
+        incrementPcount(computer)
+    }
+
+    open fun splitByte(){
+        return
+    }
+    abstract fun performOperation()
+
+    open fun incrementPcount(computer:Computer){
+        computer.programCounter.increment()
+    }
+
 }

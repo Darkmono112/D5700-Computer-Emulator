@@ -1,4 +1,8 @@
 package org.example.computer
 
-class Register {
+class Register(size:Int) {
+
+
+
+
 }

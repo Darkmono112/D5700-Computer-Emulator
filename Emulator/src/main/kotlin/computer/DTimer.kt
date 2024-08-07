@@ -1,4 +1,4 @@
 package org.example.computer
 
-class ROM {
+class DTimer {
 }

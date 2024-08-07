@@ -1,4 +1,7 @@
 package org.example.computer.commands
 
-class Sub {
+class Sub:BaseInstruction() {
+    override fun performOperation() {
+        TODO("Not yet implemented")
+    }
 }

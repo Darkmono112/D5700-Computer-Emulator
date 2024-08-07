@@ -1,4 +1,6 @@
 package org.example.computer.commands
 
-class ConvertB10 {
+import org.example.computer.Computer
+
+class ConvertB10(computer: Computer):BaseInstruction(computer) {
 }

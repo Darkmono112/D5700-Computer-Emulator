@@ -1,4 +1,6 @@
 package org.example.computer.commands
 
-class Draw {
+import org.example.computer.Computer
+
+class Draw(computer: Computer): BaseInstruction(computer) {
 }

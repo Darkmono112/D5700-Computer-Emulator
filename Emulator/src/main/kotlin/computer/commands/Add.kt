@@ -1,4 +1,13 @@
 package org.example.computer.commands
 
-class Add {
+import org.example.computer.Computer
+
+class Add : BaseInstruction() {
+
+
+    override fun performOperation() {
+        TODO("Not yet implemented")
+    }
+
+
 }

@@ -22,7 +22,7 @@ class Computer(romData:List<UByte>) {
     val cpu: Cpu = Cpu()
     val timer: DTimer = DTimer()
     val address: Register = Register(1)
-    val memory = false  // false for ram, true for ROM
+    var memory = false  // false for ram, true for ROM
     val ram: Ram = Ram()
     val rom: Rom = Rom(romData)
     val console = Console()
@@ -40,7 +40,7 @@ class Computer(romData:List<UByte>) {
     }
 
     init {
-        for(i in romData.indices step 2){
+        for(i in 0..romData.size-1 step 2){
             invoker.executeInstruction(romData[i],romData[i+1])
         }
 

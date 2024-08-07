@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="912271ec-ef98-4a79-81fa-b1f4099f935b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestRam.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TestRom.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Computer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Computer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/ProgramCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/ProgramCounter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Ram.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Ram.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Rom.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Rom.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/BaseInstruction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/BaseInstruction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Draw.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Draw.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Jump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Jump.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Read.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Read.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadKeyboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadKeyboard.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadTimer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipEqual.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipEqual.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipNot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipNot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Sub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Sub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SwitchMemory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SwitchMemory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Write.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Write.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestAdd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestAdd.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestJump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestJump.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestRead.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestRead.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestSub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestSub.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestSwitchMemory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestSwitchMemory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestWrite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestWrite.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +43,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,9 +66,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2kIw5IQerEfZv3rlMPc3rVNcxAu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -45,9 +79,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.TestAdd.executor": "Run",
+    "Gradle.TestAdd.testAdd.executor": "Run",
     "Gradle.TestComputer.testCreation.executor": "Run",
+    "Gradle.TestJump.executor": "Run",
+    "Gradle.TestRam.executor": "Run",
+    "Gradle.TestRead.testRead.executor": "Run",
+    "Gradle.TestRom.executor": "Run",
+    "Gradle.TestRom.testException.executor": "Run",
     "Gradle.TestStore.executor": "Run",
     "Gradle.TestStore.testStore.executor": "Run",
+    "Gradle.TestSub.executor": "Run",
+    "Gradle.TestSwitchMemory.executor": "Run",
+    "Gradle.TestWrite.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -62,8 +106,8 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.TestStore">
-    <configuration name="TestComputer.testCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.TestSwitchMemory">
+    <configuration name="TestJump" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -76,7 +120,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TestComputer.testCreation&quot;" />
+            <option value="&quot;TestJump&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -87,7 +131,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestStore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestRead.testRead" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TestStore&quot;" />
+            <option value="&quot;TestRead.testRead&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,7 +155,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestStore.testStore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestRom.testException" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +168,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;TestStore.testStore&quot;" />
+            <option value="&quot;TestRom.testException&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSwitchMemory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestSwitchMemory&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestWrite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestWrite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -137,9 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestStore" />
-        <item itemvalue="Gradle.TestStore.testStore" />
-        <item itemvalue="Gradle.TestComputer.testCreation" />
+        <item itemvalue="Gradle.TestSwitchMemory" />
+        <item itemvalue="Gradle.TestJump" />
+        <item itemvalue="Gradle.TestWrite" />
+        <item itemvalue="Gradle.TestRead.testRead" />
+        <item itemvalue="Gradle.TestRom.testException" />
       </list>
     </recent_temporary>
   </component>

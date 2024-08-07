@@ -4,6 +4,6 @@ import org.example.computer.Computer
 
 class SetA:BaseInstruction() {
     override fun performOperation(parts: List<Int>, computer: Computer) {
-        TODO("Not yet implemented")
+        return
     }
 }

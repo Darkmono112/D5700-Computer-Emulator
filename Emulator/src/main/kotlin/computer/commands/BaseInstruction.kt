@@ -16,8 +16,8 @@ abstract class BaseInstruction(): Instruction {
 
         val firstNib = b1.toInt() shr 4
         val secondNib = b1.toInt() and 0xF
-        val thirdNib = b1.toInt() shr 4
-        val fourthNib = b1.toInt() and 0xF
+        val thirdNib = b2.toInt() shr 4
+        val fourthNib = b2.toInt() and 0xF
 
         return listOf(firstNib,secondNib,thirdNib,fourthNib)
     }

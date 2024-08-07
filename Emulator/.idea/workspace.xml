@@ -7,27 +7,7 @@
     <list default="true" id="912271ec-ef98-4a79-81fa-b1f4099f935b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Computer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Computer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Register.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Register.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Add.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Add.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/BaseInstruction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/BaseInstruction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ByteToAscii.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ConvertB10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ConvertB10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Draw.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Draw.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Instruction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Instruction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Invoker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Invoker.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Jump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Jump.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Read.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Read.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadKeyboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadKeyboard.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadTimer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/ReadTimer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetA.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SetT.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipEqual.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipEqual.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipNot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SkipNot.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Store.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Store.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Sub.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Sub.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SwitchMemory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/SwitchMemory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Write.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/commands/Write.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestAdd.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestAdd.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/computer/Rom.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/computer/Rom.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/TestStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/TestStore.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +46,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.TestComputer.testCreation.executor": "Run",
+    "Gradle.TestStore.executor": "Run",
+    "Gradle.TestStore.testStore.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -80,7 +62,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TestStore">
     <configuration name="TestComputer.testCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -105,8 +87,58 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TestStore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestStore&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStore.testStore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;TestStore.testStore&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestStore" />
+        <item itemvalue="Gradle.TestStore.testStore" />
         <item itemvalue="Gradle.TestComputer.testCreation" />
       </list>
     </recent_temporary>

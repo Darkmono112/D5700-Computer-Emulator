@@ -7,7 +7,8 @@ class TestStore {
 
     @Test
     fun testStore(){
-        val computer = Computer(listOf((0x0).toUByte(),(0xFF).toUByte()))
+        val computer = Computer(listOf((0x0).toUByte(),(0xF).toUByte()))
+        assertEquals(15, computer.generalRegisters[0].readByte()[0].toInt())
     }
 
 

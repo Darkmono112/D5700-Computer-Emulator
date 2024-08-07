@@ -40,7 +40,7 @@ class Computer(romData:List<UByte>) {
     }
 
     init {
-        for(i in 0..romData.size step 2){
+        for(i in romData.indices step 2){
             invoker.executeInstruction(romData[i],romData[i+1])
         }
 
